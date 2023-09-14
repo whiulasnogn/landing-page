@@ -80,26 +80,26 @@ button {
     width: 500px;
 }
 
-.info {
+div.info {
     display: flex;
     flex-direction: column;
     padding: 40px;
 }
 
-.infoheader {
+div.infoheader {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
     text-align: center;
 }
 
-.infocontainer {
+div.infocontainer {
     display: flex;
     justify-content: center;
     margin: 20px;
 }
 
-.infobox {
+div.infobox {
     width: 200px;
     margin: 20px;
 }
@@ -120,14 +120,14 @@ h2, p {
     margin: 5px 0px;
 }
 
-.quote {
+div.quote {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #e5e7eb;
 }
 
-.quotetext {
+div.quotetext {
     display:flex;
     width: 900px;
     padding: 100px;
@@ -138,7 +138,7 @@ h2, p {
     color: #1F2937;
 }
 
-.from {
+div.from {
     display:flex;
     justify-content: end;
     width: 900px;
