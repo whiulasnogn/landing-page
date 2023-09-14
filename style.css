@@ -63,14 +63,13 @@ a {
     line-height: 30px;
 }
 
-button {
+button.signup {
     background-color: #3882f6;
     width: 130px;
     height: 40px;
     border-radius: 10px;
-}
-
-.signup {
+    border-color: #3882f6;
+    border-style: solid;
     color: #E5E7E8;
     font-size: 18px;
     font-weight: 700;
@@ -101,7 +100,7 @@ div.infocontainer {
 
 div.infobox {
     width: 200px;
-    margin: 20px;
+    margin: 20px 30px;
 }
 
 img.infopic {
@@ -129,7 +128,7 @@ div.quote {
 
 div.quotetext {
     display:flex;
-    width: 900px;
+    width: 1000px;
     padding: 100px;
     padding-bottom: 8px;
     font-size: 36px;
@@ -145,4 +144,49 @@ div.from {
     font-size: 24px;
     font-weight: 700;
     padding-bottom: 90px;
+}
+
+div.actionbox {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+div.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1250px;
+    height: 170px;
+    border-radius: 10px;
+    background-color: #3882f6;
+}
+
+div.message {
+    color: #E5E7E8;
+    font-size: 20px;
+}
+
+button.action {
+    background-color: #3882f6;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #E5E7E8;
+    border-style: solid;
+    color: #E5E7E8;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+div.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+div.legal {
+    font-size: 20px;
+    color: #E5E7E8;
 }
