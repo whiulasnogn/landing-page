@@ -1,10 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
     font-family: 'roboto';
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+    padding: 0px 250px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7E8;
+    font-size: 18px;
 }
 
 .welcome {
@@ -50,32 +80,69 @@ button {
     width: 500px;
 }
 
-.hero, .footer {
-    background-color: #1F2937;
-    padding: 0px 250px;
-}
-
-.header {
+.info {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
+    flex-direction: column;
+    padding: 40px;
 }
 
-.logo {
+.infoheader {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.infobox {
+    width: 200px;
+    margin: 20px;
+}
+
+img.infopic {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+    border: 5px solid #3882f6;
+    border-radius: 15%;
+}
+
+div.text {
+    text-align: center;
+}
+
+h2, p {
+    margin: 5px 0px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quotetext {
+    display:flex;
+    width: 900px;
+    padding: 100px;
+    padding-bottom: 8px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.from {
+    display:flex;
+    justify-content: end;
+    width: 900px;
     font-size: 24px;
     font-weight: 700;
-    color: #F9FAF8;
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-    gap: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: #E5E7E8;
-    font-size: 18px;
+    padding-bottom: 90px;
 }
